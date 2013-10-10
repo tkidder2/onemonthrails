@@ -77,4 +77,6 @@ Pinteresting::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+# make the url the site name at some point
+  config.action_mailer.default_url_options = { :host => 'http://gentle-gorge-8432.herokuapp.com/'}
 end

@@ -9,6 +9,7 @@ gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '~> 1.0.2'
 gem 'bootstrap-sass',github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
+gem 'devise',' ~>3.1.0.rc2'
 
 group :development, :test do
 gem 'sqlite3'
